@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="GoogleSheet.css">
+    <link rel="icon" href="https://pbs.twimg.com/media/GAWGB4HakAE_LTE?format=jpg&name=large">
+    <title>Form Registrasi OlinEver</title>
+</head>
+<body>
+    <div class="banner">
+        <img src="OlineEver Banner.jpeg">
+    </div>
+    <form method="post" action="https://script.google.com/macros/s/AKfycbxgK37wYKMtiGDPpKKV5rSAKIhZQ8L1MFBpjafzYwuP0uQuMQ1EMzWP66B22Uipv1Ay/exec" name="regist-form">
+        <div class="container">
+            <h1>Form Registrasi OlinEver</h1>
+            <i>"Semangatku full terus. Gas gas gas... Oline!"</i>
+            <hr>
+            
+            <label for="name"><b>Nama</b></label>
+            <input type="text" placeholder="Nama Panggilan" name="name" id="name" required>
+
+            <label for="email"><b>Alamat Email</b></label>
+            <input type="text" placeholder="Email" name="email" id="email" required>
+        
+            <label for="phone"><b>Nomor Handphone</b></label>
+            <input type="text" placeholder="Nomor Handphone" name="phone" id="phone" required>
+        
+            <label for="reason"><b>Alasan Ingin Bergabung dengan Olinever</b></label>
+            <textarea placeholder="Kenapa tuh?" name="reason" rows="5" id="reason" required></textarea>
+            
+            <button type="submit" class="registerbtn">Submit</button>
+        </div>    
+    </form>
+
+    <script src="GoogleSheet.js"></script>
+</body>
+</html>
